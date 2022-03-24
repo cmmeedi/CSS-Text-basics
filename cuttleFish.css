@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+
+    /* font-weight determines the thickness of the font.  Bold font is thicker font then normal for example.
+    */
+
+    /* The font weight of 400 is equivalent to setting it to normal.  
+    700 is equivalent to bold.  
+    By default it is always set to normal or 400 and in this case the H1 element does not go below 400. */
+    font-weight: 400;
+
+    /* text-decoration allows you to add a line above, through or under the text and the line can also be styled with color, make it dotted or in this case wavy.
+    */
+    text-decoration: blue overline wavy;
+
+    /* letter-spacing changes the space between each character of text.*/
+    letter-spacing: 10px;
+
+    /* font-size will change the size of text. */
+    font-size: 80px;
+
+    /* font-family will completely change the look of the font adhering it to the family that is chosen.
+    Keep in mind that not all fonts are supported by all systems or browser.
+    By adding a comma other fonts can be added to the queue in the case that the previous font is not supported.  
+    These are just font families and does not specify the specific font within the family, the default font within the family will be chosen in this case.*/
+    font-family: Impact, Futura, Verdana;
+}
+
+p{
+    text-align: right;
+    
+    /* line-height determines the space between each line of text.  This line has been made to be double spaced.*/
+    line-height: 2;
+}
+
+a{
+    /* Removed the underline on links. */
+    text-decoration: none;
+}
